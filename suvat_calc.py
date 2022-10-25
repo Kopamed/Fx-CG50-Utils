@@ -87,7 +87,6 @@ def input_variable(symbol, unit):
 suvat_letters = "Suvat"
 suvat_units = ["m", "ms^-1", "ms^-1", "ms^-2", "s"]
 suvat = [input_variable(suvat_letters[index], suvat_units[index]) for index in range(len(suvat_letters))]
-
 equations = [find_displacement, find_initial_velocity, find_final_velocity, find_acceleration, find_time]
 
 if suvat.count(None) >= 3:
